@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147362711BDA09AE00C83787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362701BDA09AE00C83787 /* AppDelegate.swift */; };
+		147362731BDA09AE00C83787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362721BDA09AE00C83787 /* ViewController.swift */; };
+		147362761BDA09AE00C83787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147362741BDA09AE00C83787 /* Main.storyboard */; };
+		147362791BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147362771BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld */; };
+		1473627B1BDA09AE00C83787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1473627A1BDA09AE00C83787 /* Assets.xcassets */; };
+		1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */; };
+		147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */; };
+		147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147362851BDA09AE00C83787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147362651BDA09AE00C83787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1473626C1BDA09AE00C83787;
+			remoteInfo = Tripologics_planner;
+		};
+		147362901BDA09AE00C83787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147362651BDA09AE00C83787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1473626C1BDA09AE00C83787;
+			remoteInfo = Tripologics_planner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1473626D1BDA09AE00C83787 /* Tripologics_planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripologics_planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147362701BDA09AE00C83787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147362721BDA09AE00C83787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147362751BDA09AE00C83787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147362781BDA09AE00C83787 /* Tripologics_planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tripologics_planner.xcdatamodel; sourceTree = "<group>"; };
+		1473627A1BDA09AE00C83787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1473627D1BDA09AE00C83787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1473627F1BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147362841BDA09AE00C83787 /* Tripologics_plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerTests.swift; sourceTree = "<group>"; };
+		1473628A1BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerUITests.swift; sourceTree = "<group>"; };
+		147362951BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1473626A1BDA09AE00C83787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147362811BDA09AE00C83787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1473628C1BDA09AE00C83787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147362641BDA09AE00C83787 = {
+			isa = PBXGroup;
+			children = (
+				1473626F1BDA09AE00C83787 /* Tripologics_planner */,
+				147362871BDA09AE00C83787 /* Tripologics_plannerTests */,
+				147362921BDA09AE00C83787 /* Tripologics_plannerUITests */,
+				1473626E1BDA09AE00C83787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1473626E1BDA09AE00C83787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1473626D1BDA09AE00C83787 /* Tripologics_planner.app */,
+				147362841BDA09AE00C83787 /* Tripologics_plannerTests.xctest */,
+				1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1473626F1BDA09AE00C83787 /* Tripologics_planner */ = {
+			isa = PBXGroup;
+			children = (
+				147362701BDA09AE00C83787 /* AppDelegate.swift */,
+				147362721BDA09AE00C83787 /* ViewController.swift */,
+				147362741BDA09AE00C83787 /* Main.storyboard */,
+				1473627A1BDA09AE00C83787 /* Assets.xcassets */,
+				1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */,
+				1473627F1BDA09AE00C83787 /* Info.plist */,
+				147362771BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld */,
+			);
+			path = Tripologics_planner;
+			sourceTree = "<group>";
+		};
+		147362871BDA09AE00C83787 /* Tripologics_plannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */,
+				1473628A1BDA09AE00C83787 /* Info.plist */,
+			);
+			path = Tripologics_plannerTests;
+			sourceTree = "<group>";
+		};
+		147362921BDA09AE00C83787 /* Tripologics_plannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */,
+				147362951BDA09AE00C83787 /* Info.plist */,
+			);
+			path = Tripologics_plannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1473626C1BDA09AE00C83787 /* Tripologics_planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147362981BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_planner" */;
+			buildPhases = (
+				147362691BDA09AE00C83787 /* Sources */,
+				1473626A1BDA09AE00C83787 /* Frameworks */,
+				1473626B1BDA09AE00C83787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripologics_planner;
+			productName = Tripologics_planner;
+			productReference = 1473626D1BDA09AE00C83787 /* Tripologics_planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147362831BDA09AE00C83787 /* Tripologics_plannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1473629B1BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_plannerTests" */;
+			buildPhases = (
+				147362801BDA09AE00C83787 /* Sources */,
+				147362811BDA09AE00C83787 /* Frameworks */,
+				147362821BDA09AE00C83787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147362861BDA09AE00C83787 /* PBXTargetDependency */,
+			);
+			name = Tripologics_plannerTests;
+			productName = Tripologics_plannerTests;
+			productReference = 147362841BDA09AE00C83787 /* Tripologics_plannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1473628E1BDA09AE00C83787 /* Tripologics_plannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1473629E1BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_plannerUITests" */;
+			buildPhases = (
+				1473628B1BDA09AE00C83787 /* Sources */,
+				1473628C1BDA09AE00C83787 /* Frameworks */,
+				1473628D1BDA09AE00C83787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147362911BDA09AE00C83787 /* PBXTargetDependency */,
+			);
+			name = Tripologics_plannerUITests;
+			productName = Tripologics_plannerUITests;
+			productReference = 1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147362651BDA09AE00C83787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ferologics;
+				TargetAttributes = {
+					1473626C1BDA09AE00C83787 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					147362831BDA09AE00C83787 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1473626C1BDA09AE00C83787;
+					};
+					1473628E1BDA09AE00C83787 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1473626C1BDA09AE00C83787;
+					};
+				};
+			};
+			buildConfigurationList = 147362681BDA09AE00C83787 /* Build configuration list for PBXProject "Tripologics_planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147362641BDA09AE00C83787;
+			productRefGroup = 1473626E1BDA09AE00C83787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1473626C1BDA09AE00C83787 /* Tripologics_planner */,
+				147362831BDA09AE00C83787 /* Tripologics_plannerTests */,
+				1473628E1BDA09AE00C83787 /* Tripologics_plannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1473626B1BDA09AE00C83787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */,
+				1473627B1BDA09AE00C83787 /* Assets.xcassets in Resources */,
+				147362761BDA09AE00C83787 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147362821BDA09AE00C83787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1473628D1BDA09AE00C83787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147362691BDA09AE00C83787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147362791BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld in Sources */,
+				147362731BDA09AE00C83787 /* ViewController.swift in Sources */,
+				147362711BDA09AE00C83787 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147362801BDA09AE00C83787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1473628B1BDA09AE00C83787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147362861BDA09AE00C83787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1473626C1BDA09AE00C83787 /* Tripologics_planner */;
+			targetProxy = 147362851BDA09AE00C83787 /* PBXContainerItemProxy */;
+		};
+		147362911BDA09AE00C83787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1473626C1BDA09AE00C83787 /* Tripologics_planner */;
+			targetProxy = 147362901BDA09AE00C83787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147362741BDA09AE00C83787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147362751BDA09AE00C83787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1473627D1BDA09AE00C83787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147362961BDA09AE00C83787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		147362971BDA09AE00C83787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147362991BDA09AE00C83787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tripologics_planner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1473629A1BDA09AE00C83787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tripologics_planner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1473629C1BDA09AE00C83787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tripologics_plannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripologics_planner.app/Tripologics_planner";
+			};
+			name = Debug;
+		};
+		1473629D1BDA09AE00C83787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tripologics_plannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripologics_planner.app/Tripologics_planner";
+			};
+			name = Release;
+		};
+		1473629F1BDA09AE00C83787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tripologics_plannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tripologics_planner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		147362A01BDA09AE00C83787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tripologics_plannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tripologics_planner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147362681BDA09AE00C83787 /* Build configuration list for PBXProject "Tripologics_planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147362961BDA09AE00C83787 /* Debug */,
+				147362971BDA09AE00C83787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147362981BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147362991BDA09AE00C83787 /* Debug */,
+				1473629A1BDA09AE00C83787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1473629B1BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_plannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1473629C1BDA09AE00C83787 /* Debug */,
+				1473629D1BDA09AE00C83787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1473629E1BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_plannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1473629F1BDA09AE00C83787 /* Debug */,
+				147362A01BDA09AE00C83787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		147362771BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				147362781BDA09AE00C83787 /* Tripologics_planner.xcdatamodel */,
+			);
+			currentVersion = 147362781BDA09AE00C83787 /* Tripologics_planner.xcdatamodel */;
+			path = Tripologics_planner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 147362651BDA09AE00C83787 /* Project object */;
+}
