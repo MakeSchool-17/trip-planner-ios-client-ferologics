@@ -4,6 +4,15 @@ The goal for this project is to build an iOS app that allows users to plan trips
 
 The content the user creates in the app should be persisted using Core Data. The data should also be synchronized with a backend system that you should write using Python and the Flask framework.
 
+#Personal Goals for this project
+- use as many value type code as possible
+- instead of creating a class, create a protocol
+- have many files with little code rather than having litle files with tons of code
+- decuple code frequently
+- create helpers, models, constants..
+- use as little 3rd party OSC as possible as long as it isn't something super cool lol
+- try not to be a perfectionist
+
 #Data Model
 
 - Trips have a name and a collection of waypoints
