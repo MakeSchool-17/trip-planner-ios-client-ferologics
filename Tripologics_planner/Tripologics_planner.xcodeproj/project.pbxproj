@@ -25,8 +25,12 @@
 		144B70A31BE3E67C003F401A /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A21BE3E67C003F401A /* TripView.swift */; };
 		144B70A41BE3E67C003F401A /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A21BE3E67C003F401A /* TripView.swift */; };
 		144B70A51BE3E67C003F401A /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A21BE3E67C003F401A /* TripView.swift */; };
+		144B70A71BE3EA1C003F401A /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A61BE3EA1C003F401A /* TripCell.swift */; };
+		144B70A81BE3EA1C003F401A /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A61BE3EA1C003F401A /* TripCell.swift */; };
+		144B70A91BE3EA1C003F401A /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B70A61BE3EA1C003F401A /* TripCell.swift */; };
 		1450B85A1BDAAD3800E36BB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1450B8581BDAAD3800E36BB9 /* README.md */; };
 		1450B85B1BDAAD3800E36BB9 /* TripPlanner_ScreenFlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1450B8591BDAAD3800E36BB9 /* TripPlanner_ScreenFlow.png */; };
+		145A86821BE3FF2F00A9CA7E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */; };
 		147362711BDA09AE00C83787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362701BDA09AE00C83787 /* AppDelegate.swift */; };
 		147362731BDA09AE00C83787 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362721BDA09AE00C83787 /* TripsViewController.swift */; };
 		147362761BDA09AE00C83787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147362741BDA09AE00C83787 /* Main.storyboard */; };
@@ -61,8 +65,10 @@
 		144B709A1BE3E669003F401A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		144B709E1BE3E674003F401A /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		144B70A21BE3E67C003F401A /* TripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		144B70A61BE3EA1C003F401A /* TripCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCell.swift; sourceTree = "<group>"; };
 		1450B8581BDAAD3800E36BB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Tripologics_planner/README.md; sourceTree = "<group>"; };
 		1450B8591BDAAD3800E36BB9 /* TripPlanner_ScreenFlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TripPlanner_ScreenFlow.png; path = Tripologics_planner/TripPlanner_ScreenFlow.png; sourceTree = "<group>"; };
+		145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1473626D1BDA09AE00C83787 /* Tripologics_planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripologics_planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147362701BDA09AE00C83787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147362721BDA09AE00C83787 /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 				144B70921BE3DF45003F401A /* LoginView.swift */,
 				144B70A21BE3E67C003F401A /* TripView.swift */,
 				144B709E1BE3E674003F401A /* SearchView.swift */,
+				144B70A61BE3EA1C003F401A /* TripCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 		144B70911BE3BED6003F401A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -348,8 +356,10 @@
 				144B70931BE3DF45003F401A /* LoginView.swift in Sources */,
 				144B709F1BE3E674003F401A /* SearchView.swift in Sources */,
 				147362791BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld in Sources */,
+				145A86821BE3FF2F00A9CA7E /* CoreDataStack.swift in Sources */,
 				144B70A31BE3E67C003F401A /* TripView.swift in Sources */,
 				144B709B1BE3E669003F401A /* SearchViewController.swift in Sources */,
+				144B70A71BE3EA1C003F401A /* TripCell.swift in Sources */,
 				147362731BDA09AE00C83787 /* TripsViewController.swift in Sources */,
 				1450B85A1BDAAD3800E36BB9 /* README.md in Sources */,
 				144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */,
@@ -362,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144B70A81BE3EA1C003F401A /* TripCell.swift in Sources */,
 				144B709C1BE3E669003F401A /* SearchViewController.swift in Sources */,
 				144B70981BE3DF5D003F401A /* Trip.swift in Sources */,
 				144B70941BE3DF45003F401A /* LoginView.swift in Sources */,
@@ -376,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144B70A91BE3EA1C003F401A /* TripCell.swift in Sources */,
 				144B709D1BE3E669003F401A /* SearchViewController.swift in Sources */,
 				144B70991BE3DF5D003F401A /* Trip.swift in Sources */,
 				144B70951BE3DF45003F401A /* LoginView.swift in Sources */,
