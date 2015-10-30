@@ -11,7 +11,8 @@ import CoreData
 
 enum CoreDataStackType
 {
-    case InMemory, SQLite
+    case InMemory
+    case SQLite
 }
 
 class CoreDataStack
@@ -19,8 +20,8 @@ class CoreDataStack
     private(set) var managedObjectContext: NSManagedObjectContext
     
     private var privateManagedObjectContext: NSManagedObjectContext
-    private var storeCoordinator: NSPersistentStoreCoordinator!
-    private var stackType: CoreDataStackType
+    private var storeCoordinator           : NSPersistentStoreCoordinator!
+    private var stackType                  : CoreDataStackType
     
     lazy var applicationDocumentsDirectory: NSURL =
     {
@@ -32,11 +33,11 @@ class CoreDataStack
     {
         self.stackType = stackType
         
-        let modelURL = NSBundle.mainBundle().URLForResource("Tripologics_planner", withExtension: "momd")!
-        let model = NSManagedObjectModel(contentsOfURL: modelURL)
+        let modelURL     = NSBundle.mainBundle().URLForResource("Tripologics_planner", withExtension: "momd")!
+        let model        = NSManagedObjectModel(contentsOfURL: modelURL)
         storeCoordinator = NSPersistentStoreCoordinator(managedObjectModel: model!)
         
-        managedObjectContext = NSManagedObjectContext(concurrencyType: .MainQueueConcurrencyType)
+        managedObjectContext        = NSManagedObjectContext(concurrencyType: .MainQueueConcurrencyType)
         privateManagedObjectContext = NSManagedObjectContext(concurrencyType: .PrivateQueueConcurrencyType)
         
         managedObjectContext.parentContext = privateManagedObjectContext
@@ -60,21 +61,23 @@ class CoreDataStack
         }
             catch
         {
-            // Ripport.
-            var dict = [String: AnyObject]()
-            // description key
-            dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
-            // failure reason error key
-            dict[NSLocalizedFailureReasonErrorKey] = "There was an error creating or loading the application's saved data."
+            // Ripport errorz.
             
-            dict[NSUnderlyingErrorKey] = error as NSError
+            var dict = [String: AnyObject]()
+
+            dict[NSLocalizedDescriptionKey]        = "Failed to initialize the application's saved data"
+            dict[NSLocalizedFailureReasonErrorKey] = "There was an error creating or loading the application's saved data."
+            dict[NSUnderlyingErrorKey]             = error as NSError
+            
             let wrappedError = NSError(domain: "YOUR_ERROR_DOMAIN", code:  9999, userInfo: dict)
+            
             /*
                 Replace this with code to handle the error appropriately.
                 
                 abort() causes the applications to generate a crash log and terminate.
                 You should not use this function ina shipping application, although it may be useful during development.
             */
+            
             print("Unresolved error \(wrappedError), \(wrappedError.userInfo)")
             abort()
         }
