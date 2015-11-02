@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import CoreLocation
+
+protocol Trip
+{
+    var name: String { get }
+    var waipoints: [(name: String, geopoint: CLLocation)] { get }
+    
+    func removeTrip()
+    func addTrip()
+}
+                                                                                                            

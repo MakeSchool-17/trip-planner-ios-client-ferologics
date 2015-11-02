@@ -9,12 +9,12 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Login View Controller" customClass="ViewController" customModule="Tripologics_planner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Login View Controller" customClass="LoginViewController" customModule="Tripologics_planner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Login View">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Login View" customClass="LoginView" customModule="Tripologics_planner" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -86,6 +86,11 @@
                             <constraint firstItem="fOu-Qi-fNl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qtU-ig-KFd"/>
                             <constraint firstItem="fOu-Qi-fNl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yrX-7a-iPE"/>
                         </constraints>
+                        <connections>
+                            <outlet property="loginButton" destination="DjK-9Z-21P" id="26I-ph-qRv"/>
+                            <outlet property="loginField" destination="vZo-Y2-3jt" id="SDM-at-2Wb"/>
+                            <outlet property="passwordField" destination="1Tb-Qp-mhR" id="RV3-lC-sNW"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -100,7 +105,7 @@
                         <viewControllerLayoutGuide type="top" id="8nQ-di-FSv"/>
                         <viewControllerLayoutGuide type="bottom" id="jbH-B0-x8h"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dlD-VW-8GU">
+                    <view key="view" contentMode="scaleToFill" id="dlD-VW-8GU" customClass="TripView" customModule="Tripologics_planner" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -114,7 +119,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Trip" id="ZHX-dX-0sG">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Trip" id="ZHX-dX-0sG" customClass="TripCell" customModule="Tripologics_planner" customModuleProvider="target">
                                         <rect key="frame" x="70" y="0.0" width="461" height="279"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -142,6 +147,7 @@
                                     <color key="titleShadowColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="addTripButtonTapped:" destination="dlD-VW-8GU" eventType="touchUpInside" id="zy4-OP-dfZ"/>
                                     <segue destination="7PJ-d5-r3r" kind="presentation" modalTransitionStyle="crossDissolve" id="Uc1-JC-f0K"/>
                                 </connections>
                             </button>
@@ -156,21 +162,24 @@
                             <constraint firstItem="hh1-pR-6wY" firstAttribute="centerX" secondItem="IEZ-AN-KJQ" secondAttribute="centerX" id="iIV-N1-5jv"/>
                             <constraint firstItem="IEZ-AN-KJQ" firstAttribute="centerX" secondItem="dlD-VW-8GU" secondAttribute="centerX" id="r3j-Ip-Jsk"/>
                         </constraints>
+                        <connections>
+                            <outlet property="addTripButton" destination="hh1-pR-6wY" id="blH-eR-JXa"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nL-0l-7QF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1064" y="350"/>
         </scene>
-        <!--Add Trip View Controller-->
+        <!--Search For Trip View Controller-->
         <scene sceneID="cJ1-GL-Yqn">
             <objects>
-                <viewController id="7PJ-d5-r3r" userLabel="Add Trip View Controller" sceneMemberID="viewController">
+                <viewController id="7PJ-d5-r3r" userLabel="Search For Trip View Controller" customClass="SearchViewController" customModule="Tripologics_planner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g0B-1G-gpy"/>
                         <viewControllerLayoutGuide type="bottom" id="uCp-te-L27"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VpM-tZ-dLx">
+                    <view key="view" contentMode="scaleToFill" id="VpM-tZ-dLx" customClass="SearchView" customModule="Tripologics_planner" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -189,6 +198,7 @@
                                     <color key="titleShadowColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="backToTripsTapped:" destination="VpM-tZ-dLx" eventType="touchUpInside" id="fpp-4W-Q2m"/>
                                     <segue destination="TDS-4b-G4M" kind="presentation" modalTransitionStyle="crossDissolve" id="t4p-At-3LN"/>
                                 </connections>
                             </button>
@@ -207,6 +217,10 @@
                             <constraint firstItem="WKl-ea-QkC" firstAttribute="top" secondItem="g0B-1G-gpy" secondAttribute="bottom" constant="8" id="fZo-Fv-iQy"/>
                             <constraint firstItem="WKl-ea-QkC" firstAttribute="centerX" secondItem="VpM-tZ-dLx" secondAttribute="centerX" id="vZm-f6-z0o"/>
                         </constraints>
+                        <connections>
+                            <outlet property="backToTripsButton" destination="wTC-FE-E5W" id="ZDa-V5-YHg"/>
+                            <outlet property="searchBar" destination="WKl-ea-QkC" id="dYy-iH-99c"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXX-Zw-cI9" userLabel="First Responder" sceneMemberID="firstResponder"/>

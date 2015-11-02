@@ -1,0 +1,6 @@
+framework module Pods_Tripologics_planner {
+  umbrella header "Pods-Tripologics_planner-umbrella.h"
+
+  export *
+  module * { export * }
+}

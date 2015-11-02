@@ -9,7 +9,20 @@
 import Foundation
 import UIKit
 
+/*
+
+all labels etc.. 
+
+*/
+
 //protocol TipCell
 //{
 //    var name: UILabel { get }
 //}
+
+class TripCell: UICollectionViewCell
+{
+    
+    
+    
+}

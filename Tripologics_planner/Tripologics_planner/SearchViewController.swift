@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import UIKit
+
+/*
+
+Integrate google p;aces api, probably in a helper class or whatnot
+
+handle the states of the searchbar
+
+implement required methods
+
+*/
+
+class SearchViewController: UIViewController
+{
+    
+}

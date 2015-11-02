@@ -6,7 +6,6 @@
 //  Copyright © 2015 ferologics. All rights reserved.
 //
 
-import Foundation
 import CoreData
 
 enum CoreDataStackType
@@ -29,7 +28,7 @@ class CoreDataStack
         return urls[urls.count-1]
     }()
     
-    init(stackType: CoreDataStackType)
+    init(_ stackType: CoreDataStackType)
     {
         self.stackType = stackType
         

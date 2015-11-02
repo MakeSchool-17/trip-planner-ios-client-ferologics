@@ -39,6 +39,7 @@
 		1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */; };
 		147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */; };
 		147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */; };
+		4E41E7DB784696BCDEB89D2C /* Pods_Tripologics_planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.debug.xcconfig"; sourceTree = "<group>"; };
 		144B708A1BE3BEAB003F401A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		144B70921BE3DF45003F401A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		144B70961BE3DF5D003F401A /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -83,6 +85,8 @@
 		1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerUITests.swift; sourceTree = "<group>"; };
 		147362951BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tripologics_planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E41E7DB784696BCDEB89D2C /* Pods_Tripologics_planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +181,8 @@
 				147362871BDA09AE00C83787 /* Tripologics_plannerTests */,
 				147362921BDA09AE00C83787 /* Tripologics_plannerUITests */,
 				1473626E1BDA09AE00C83787 /* Products */,
+				626AEFBCA73AFD5987FE6900 /* Pods */,
+				7D057108DACA04FCE992A18E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,11 +199,11 @@
 		1473626F1BDA09AE00C83787 /* Tripologics_planner */ = {
 			isa = PBXGroup;
 			children = (
+				147362701BDA09AE00C83787 /* AppDelegate.swift */,
 				144B70911BE3BED6003F401A /* Helpers */,
 				144B70901BE3BECF003F401A /* Models */,
 				144B708F1BE3BEC5003F401A /* Views */,
 				144B708E1BE3BEB6003F401A /* ViewControllers */,
-				147362701BDA09AE00C83787 /* AppDelegate.swift */,
 				144B70891BE3BE82003F401A /* Nibs */,
 				1450B8571BDAAD2100E36BB9 /* Support_files */,
 			);
@@ -221,6 +228,23 @@
 			path = Tripologics_plannerUITests;
 			sourceTree = "<group>";
 		};
+		626AEFBCA73AFD5987FE6900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */,
+				D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D057108DACA04FCE992A18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 147362981BDA09AE00C83787 /* Build configuration list for PBXNativeTarget "Tripologics_planner" */;
 			buildPhases = (
+				D6BA855FEC8D9832B630C7B2 /* Check Pods Manifest.lock */,
 				147362691BDA09AE00C83787 /* Sources */,
 				1473626A1BDA09AE00C83787 /* Frameworks */,
 				1473626B1BDA09AE00C83787 /* Resources */,
+				CCF318207441EBCB37A01126 /* Embed Pods Frameworks */,
+				B33E2740CFB54E8639573835 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,6 +374,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B33E2740CFB54E8639573835 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF318207441EBCB37A01126 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BA855FEC8D9832B630C7B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		147362691BDA09AE00C83787 /* Sources */ = {
@@ -516,6 +591,7 @@
 		};
 		147362991BDA09AE00C83787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tripologics_planner/Info.plist;
@@ -527,6 +603,7 @@
 		};
 		1473629A1BDA09AE00C83787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tripologics_planner/Info.plist;

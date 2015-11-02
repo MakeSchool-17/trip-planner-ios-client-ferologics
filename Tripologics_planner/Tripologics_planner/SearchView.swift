@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import UIKit
+
+class SearchView: UIView
+{
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    @IBOutlet weak var backToTripsButton: UIButton!
+    
+    
+    @IBAction func backToTripsTapped(sender: AnyObject)
+    {
+    
+    }
+}
+
+/*
+
+
+
+*/

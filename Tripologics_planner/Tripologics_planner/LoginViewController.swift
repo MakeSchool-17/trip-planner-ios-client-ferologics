@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+/*
+
+handle the login of user - 
+    if credentials are correct then move to next view
+
+    else throw an error
+
+*/
+
+class LoginViewController: UIViewController
+{
+    
+}

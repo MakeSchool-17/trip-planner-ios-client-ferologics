@@ -10,6 +10,15 @@ import UIKit
 
 class TripsViewController: UIViewController {
 
+/*
+
+create a collection of trips - helper
+    
+manage states of the cells and delegate
+    
+*/
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

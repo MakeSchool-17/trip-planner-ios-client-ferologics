@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'Tripologics_planner' do
+pod 'Gloss', '~> 0.6'
+end
+
+target 'Tripologics_plannerTests' do
+
+end
+
+target 'Tripologics_plannerUITests' do
+
+end
+
