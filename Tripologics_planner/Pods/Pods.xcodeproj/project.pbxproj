@@ -348,7 +348,7 @@
 			};
 			name = Release;
 		};
-		AF81589FBBC83028DE4392B8E9B56373 /* Release */ = {
+		706ACA83E984327D36449B2456958C61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB94D1DF499781D610B3D75EDAC9D196 /* Pods-Tripologics_planner.release.xcconfig */;
 			buildSettings = {
@@ -363,6 +363,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -377,7 +378,7 @@
 			};
 			name = Release;
 		};
-		B53BE75D1F9B32FA56FA7D0A2A52A3DF /* Debug */ = {
+		AAE59DCDE12A6717EB2300934E95076C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D10B2DD05215756B536AD2BE5EA587E /* Pods-Tripologics_planner.debug.xcconfig */;
 			buildSettings = {
@@ -392,6 +393,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -504,8 +506,8 @@
 		D5B6741782D92A1CB63A22A393660AB2 /* Build configuration list for PBXNativeTarget "Pods-Tripologics_planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B53BE75D1F9B32FA56FA7D0A2A52A3DF /* Debug */,
-				AF81589FBBC83028DE4392B8E9B56373 /* Release */,
+				AAE59DCDE12A6717EB2300934E95076C /* Debug */,
+				706ACA83E984327D36449B2456958C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,37 +12,29 @@ import Gloss
 
 typealias waipointType = NSSet //Dictionary<String, String>//[(name: String, geopoint: String)]
 
-protocol TripModel
-{
-//    var name: String { get }
-//    var waipoints: waipointType { get }
-//    var startDate: NSDate { get }
-//    var duration:  NSNumber { get }
-    
-    func removeTrip()
-    func addTrip()
-}
-
 class Trip: NSManagedObject
 {
-    
-    
-    
-    func removeTrip()
+    convenience init(context: NSManagedObjectContext)
     {
-        
+        let entityDescription = NSEntityDescription.entityForName("Trip", inManagedObjectContext: context)!
+        self.init(entity: entityDescription, insertIntoManagedObjectContext: context)
     }
     
-    func addTrip()
+    convenience init(context: NSManagedObjectContext, jsonTrip: JSONTrip)
     {
+        let entityDescription = NSEntityDescription.entityForName("Trip", inManagedObjectContext: context)!
+        self.init(entity: entityDescription, insertIntoManagedObjectContext: context)
         
+        name     = jsonTrip.name
+        serverID = jsonTrip.serverID
     }
 }
 
 extension Trip
 {
-    @NSManaged var name: String?
+    @NSManaged var name:       String?
     @NSManaged var waitpoints: [waipointType]?
-    @NSManaged var startDate: NSDate?
-    @NSManaged var duration: NSNumber?
+    @NSManaged var serverID:   String?
+    @NSManaged var startDate:  NSDate?
+    @NSManaged var duration:   NSNumber?
 }

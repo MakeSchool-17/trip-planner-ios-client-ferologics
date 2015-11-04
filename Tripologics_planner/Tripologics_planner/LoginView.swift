@@ -12,7 +12,7 @@ import UIKit
 class LoginView: UIView
 {
     
-    @IBOutlet weak var loginField: UITextField!
+    @IBOutlet weak var loginField:    UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
     @IBOutlet weak var loginButton: UIButton!

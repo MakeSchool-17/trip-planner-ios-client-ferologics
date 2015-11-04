@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143CFB841BE9D71800EE56CE /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB831BE9D71800EE56CE /* CoreDataClient.swift */; };
 		144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
 		144B708C1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
 		144B708D1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
@@ -39,9 +40,12 @@
 		1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */; };
 		147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */; };
 		147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */; };
+		14C804491BE9A83D00055DDA /* JSONTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C804481BE9A83D00055DDA /* JSONTrip.swift */; };
+		14C8044B1BE9AA1900055DDA /* JSONWaipoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8044A1BE9AA1900055DDA /* JSONWaipoint.swift */; };
+		14C8044D1BE9B10500055DDA /* Waipoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8044C1BE9B10500055DDA /* Waipoint.swift */; };
 		14DA97F81BE8234A00C1317A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA97F71BE8234A00C1317A /* Constants.swift */; };
 		14DA97F91BE8234A00C1317A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA97F71BE8234A00C1317A /* Constants.swift */; };
-		4E41E7DB784696BCDEB89D2C /* Pods_Tripologics_planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4E41E7DB784696BCDEB89D2C /* Pods_Tripologics_planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.debug.xcconfig"; sourceTree = "<group>"; };
+		143CFB831BE9D71800EE56CE /* CoreDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
 		144B708A1BE3BEAB003F401A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		144B70921BE3DF45003F401A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		144B70961BE3DF5D003F401A /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -87,6 +92,9 @@
 		1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerUITests.swift; sourceTree = "<group>"; };
 		147362951BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C804481BE9A83D00055DDA /* JSONTrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTrip.swift; sourceTree = "<group>"; };
+		14C8044A1BE9AA1900055DDA /* JSONWaipoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONWaipoint.swift; sourceTree = "<group>"; };
+		14C8044C1BE9B10500055DDA /* Waipoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waipoint.swift; sourceTree = "<group>"; };
 		14DA97F71BE8234A00C1317A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tripologics_planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				144B70961BE3DF5D003F401A /* Trip.swift */,
+				14C8044C1BE9B10500055DDA /* Waipoint.swift */,
+				14C804481BE9A83D00055DDA /* JSONTrip.swift */,
+				14C8044A1BE9AA1900055DDA /* JSONWaipoint.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -161,6 +172,7 @@
 			children = (
 				14DA97F71BE8234A00C1317A /* Constants.swift */,
 				145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */,
+				143CFB831BE9D71800EE56CE /* CoreDataClient.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -432,16 +444,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C804491BE9A83D00055DDA /* JSONTrip.swift in Sources */,
 				144B70931BE3DF45003F401A /* LoginView.swift in Sources */,
 				144B709F1BE3E674003F401A /* SearchView.swift in Sources */,
 				147362791BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld in Sources */,
+				14C8044D1BE9B10500055DDA /* Waipoint.swift in Sources */,
 				145A86821BE3FF2F00A9CA7E /* CoreDataStack.swift in Sources */,
 				144B70A31BE3E67C003F401A /* TripView.swift in Sources */,
 				144B709B1BE3E669003F401A /* SearchViewController.swift in Sources */,
 				144B70A71BE3EA1C003F401A /* TripCell.swift in Sources */,
 				14DA97F81BE8234A00C1317A /* Constants.swift in Sources */,
 				147362731BDA09AE00C83787 /* TripsViewController.swift in Sources */,
+				14C8044B1BE9AA1900055DDA /* JSONWaipoint.swift in Sources */,
 				1450B85A1BDAAD3800E36BB9 /* README.md in Sources */,
+				143CFB841BE9D71800EE56CE /* CoreDataClient.swift in Sources */,
 				144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */,
 				144B70971BE3DF5D003F401A /* Trip.swift in Sources */,
 				147362711BDA09AE00C83787 /* AppDelegate.swift in Sources */,
