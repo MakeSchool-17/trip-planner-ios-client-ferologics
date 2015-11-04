@@ -21,5 +21,23 @@ implement required methods
 
 class SearchViewController: UIViewController
 {
+ 
+    override func viewDidLoad()
+    {
+        
+    }
     
+    override func viewWillAppear(animated: Bool)
+    {
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) //
+    {
+        // tell the collection view to update the view with new info
+        if let _ = segue.destinationViewController as? TripsViewController
+        {
+            
+        }
+    }
 }

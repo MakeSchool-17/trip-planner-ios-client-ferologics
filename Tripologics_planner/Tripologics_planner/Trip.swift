@@ -7,14 +7,42 @@
 //
 
 import Foundation
-import CoreLocation
+import CoreData
+import Gloss
 
-protocol Trip
+typealias waipointType = NSSet //Dictionary<String, String>//[(name: String, geopoint: String)]
+
+protocol TripModel
 {
-    var name: String { get }
-    var waipoints: [(name: String, geopoint: CLLocation)] { get }
+//    var name: String { get }
+//    var waipoints: waipointType { get }
+//    var startDate: NSDate { get }
+//    var duration:  NSNumber { get }
     
     func removeTrip()
     func addTrip()
 }
-                                                                                                            
+
+class Trip: NSManagedObject
+{
+    
+    
+    
+    func removeTrip()
+    {
+        
+    }
+    
+    func addTrip()
+    {
+        
+    }
+}
+
+extension Trip
+{
+    @NSManaged var name: String?
+    @NSManaged var waitpoints: [waipointType]?
+    @NSManaged var startDate: NSDate?
+    @NSManaged var duration: NSNumber?
+}

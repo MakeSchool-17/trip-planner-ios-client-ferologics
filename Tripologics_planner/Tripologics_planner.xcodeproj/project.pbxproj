@@ -39,6 +39,8 @@
 		1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */; };
 		147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */; };
 		147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */; };
+		14DA97F81BE8234A00C1317A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA97F71BE8234A00C1317A /* Constants.swift */; };
+		14DA97F91BE8234A00C1317A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA97F71BE8234A00C1317A /* Constants.swift */; };
 		4E41E7DB784696BCDEB89D2C /* Pods_Tripologics_planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -85,6 +87,7 @@
 		1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerUITests.swift; sourceTree = "<group>"; };
 		147362951BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DA97F71BE8234A00C1317A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		67F1FED2A504E6CB5A1B45CF /* Pods_Tripologics_planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tripologics_planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +159,7 @@
 		144B70911BE3BED6003F401A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				14DA97F71BE8234A00C1317A /* Constants.swift */,
 				145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */,
 			);
 			name = Helpers;
@@ -435,6 +439,7 @@
 				144B70A31BE3E67C003F401A /* TripView.swift in Sources */,
 				144B709B1BE3E669003F401A /* SearchViewController.swift in Sources */,
 				144B70A71BE3EA1C003F401A /* TripCell.swift in Sources */,
+				14DA97F81BE8234A00C1317A /* Constants.swift in Sources */,
 				147362731BDA09AE00C83787 /* TripsViewController.swift in Sources */,
 				1450B85A1BDAAD3800E36BB9 /* README.md in Sources */,
 				144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */,
@@ -455,6 +460,7 @@
 				144B70A01BE3E674003F401A /* SearchView.swift in Sources */,
 				147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */,
 				144B70A41BE3E67C003F401A /* TripView.swift in Sources */,
+				14DA97F91BE8234A00C1317A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
