@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		143CFB841BE9D71800EE56CE /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB831BE9D71800EE56CE /* CoreDataClient.swift */; };
+		143CFB861BE9DB1100EE56CE /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB851BE9DB1100EE56CE /* Networking.swift */; };
+		143CFB891BE9DBD700EE56CE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB881BE9DBD700EE56CE /* APIClient.swift */; };
+		143CFB8B1BE9E08A00EE56CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB8A1BE9E08A00EE56CE /* User.swift */; };
+		143CFB8D1BE9E13200EE56CE /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CFB8C1BE9E13200EE56CE /* Authorization.swift */; };
 		144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
 		144B708C1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
 		144B708D1BE3BEAB003F401A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B708A1BE3BEAB003F401A /* LoginViewController.swift */; };
@@ -40,6 +44,9 @@
 		1473627E1BDA09AE00C83787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1473627C1BDA09AE00C83787 /* LaunchScreen.storyboard */; };
 		147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362881BDA09AE00C83787 /* Tripologics_plannerTests.swift */; };
 		147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */; };
+		149259D41BED4C0600B1FA9F /* TripCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149259D31BED4C0600B1FA9F /* TripCollectionView.swift */; };
+		149259D51BED4C0600B1FA9F /* TripCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149259D31BED4C0600B1FA9F /* TripCollectionView.swift */; };
+		149259D61BED4C0600B1FA9F /* TripCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149259D31BED4C0600B1FA9F /* TripCollectionView.swift */; };
 		14C804491BE9A83D00055DDA /* JSONTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C804481BE9A83D00055DDA /* JSONTrip.swift */; };
 		14C8044B1BE9AA1900055DDA /* JSONWaipoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8044A1BE9AA1900055DDA /* JSONWaipoint.swift */; };
 		14C8044D1BE9B10500055DDA /* Waipoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8044C1BE9B10500055DDA /* Waipoint.swift */; };
@@ -68,6 +75,10 @@
 /* Begin PBXFileReference section */
 		03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tripologics_planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tripologics_planner/Pods-Tripologics_planner.debug.xcconfig"; sourceTree = "<group>"; };
 		143CFB831BE9D71800EE56CE /* CoreDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
+		143CFB851BE9DB1100EE56CE /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = ../Networking.swift; sourceTree = "<group>"; };
+		143CFB881BE9DBD700EE56CE /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		143CFB8A1BE9E08A00EE56CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		143CFB8C1BE9E13200EE56CE /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		144B708A1BE3BEAB003F401A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		144B70921BE3DF45003F401A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		144B70961BE3DF5D003F401A /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -92,6 +103,7 @@
 		1473628F1BDA09AE00C83787 /* Tripologics_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tripologics_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147362931BDA09AE00C83787 /* Tripologics_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripologics_plannerUITests.swift; sourceTree = "<group>"; };
 		147362951BDA09AE00C83787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149259D31BED4C0600B1FA9F /* TripCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCollectionView.swift; sourceTree = "<group>"; };
 		14C804481BE9A83D00055DDA /* JSONTrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTrip.swift; sourceTree = "<group>"; };
 		14C8044A1BE9AA1900055DDA /* JSONWaipoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONWaipoint.swift; sourceTree = "<group>"; };
 		14C8044C1BE9B10500055DDA /* Waipoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waipoint.swift; sourceTree = "<group>"; };
@@ -126,6 +138,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143CFB871BE9DB1700EE56CE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				143CFB851BE9DB1100EE56CE /* Networking.swift */,
+				143CFB881BE9DBD700EE56CE /* APIClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		144B70891BE3BE82003F401A /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +171,7 @@
 			children = (
 				144B70921BE3DF45003F401A /* LoginView.swift */,
 				144B70A21BE3E67C003F401A /* TripView.swift */,
+				149259D31BED4C0600B1FA9F /* TripCollectionView.swift */,
 				144B709E1BE3E674003F401A /* SearchView.swift */,
 				144B70A61BE3EA1C003F401A /* TripCell.swift */,
 			);
@@ -173,6 +195,8 @@
 				14DA97F71BE8234A00C1317A /* Constants.swift */,
 				145A86811BE3FF2F00A9CA7E /* CoreDataStack.swift */,
 				143CFB831BE9D71800EE56CE /* CoreDataClient.swift */,
+				143CFB8A1BE9E08A00EE56CE /* User.swift */,
+				143CFB8C1BE9E13200EE56CE /* Authorization.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -216,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				147362701BDA09AE00C83787 /* AppDelegate.swift */,
+				143CFB871BE9DB1700EE56CE /* Networking */,
 				144B70911BE3BED6003F401A /* Helpers */,
 				144B70901BE3BECF003F401A /* Models */,
 				144B708F1BE3BEC5003F401A /* Views */,
@@ -332,6 +357,7 @@
 				TargetAttributes = {
 					1473626C1BDA09AE00C83787 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UR7695XA4Q;
 					};
 					147362831BDA09AE00C83787 = {
 						CreatedOnToolsVersion = 7.1;
@@ -447,18 +473,23 @@
 				14C804491BE9A83D00055DDA /* JSONTrip.swift in Sources */,
 				144B70931BE3DF45003F401A /* LoginView.swift in Sources */,
 				144B709F1BE3E674003F401A /* SearchView.swift in Sources */,
+				143CFB861BE9DB1100EE56CE /* Networking.swift in Sources */,
 				147362791BDA09AE00C83787 /* Tripologics_planner.xcdatamodeld in Sources */,
 				14C8044D1BE9B10500055DDA /* Waipoint.swift in Sources */,
+				143CFB891BE9DBD700EE56CE /* APIClient.swift in Sources */,
 				145A86821BE3FF2F00A9CA7E /* CoreDataStack.swift in Sources */,
+				143CFB8B1BE9E08A00EE56CE /* User.swift in Sources */,
 				144B70A31BE3E67C003F401A /* TripView.swift in Sources */,
 				144B709B1BE3E669003F401A /* SearchViewController.swift in Sources */,
 				144B70A71BE3EA1C003F401A /* TripCell.swift in Sources */,
+				143CFB8D1BE9E13200EE56CE /* Authorization.swift in Sources */,
 				14DA97F81BE8234A00C1317A /* Constants.swift in Sources */,
 				147362731BDA09AE00C83787 /* TripsViewController.swift in Sources */,
 				14C8044B1BE9AA1900055DDA /* JSONWaipoint.swift in Sources */,
 				1450B85A1BDAAD3800E36BB9 /* README.md in Sources */,
 				143CFB841BE9D71800EE56CE /* CoreDataClient.swift in Sources */,
 				144B708B1BE3BEAB003F401A /* LoginViewController.swift in Sources */,
+				149259D41BED4C0600B1FA9F /* TripCollectionView.swift in Sources */,
 				144B70971BE3DF5D003F401A /* Trip.swift in Sources */,
 				147362711BDA09AE00C83787 /* AppDelegate.swift in Sources */,
 			);
@@ -477,6 +508,7 @@
 				147362891BDA09AE00C83787 /* Tripologics_plannerTests.swift in Sources */,
 				144B70A41BE3E67C003F401A /* TripView.swift in Sources */,
 				14DA97F91BE8234A00C1317A /* Constants.swift in Sources */,
+				149259D51BED4C0600B1FA9F /* TripCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +521,7 @@
 				144B70991BE3DF5D003F401A /* Trip.swift in Sources */,
 				144B70951BE3DF45003F401A /* LoginView.swift in Sources */,
 				144B708D1BE3BEAB003F401A /* LoginViewController.swift in Sources */,
+				149259D61BED4C0600B1FA9F /* TripCollectionView.swift in Sources */,
 				144B70A11BE3E674003F401A /* SearchView.swift in Sources */,
 				147362941BDA09AE00C83787 /* Tripologics_plannerUITests.swift in Sources */,
 				144B70A51BE3E67C003F401A /* TripView.swift in Sources */,
@@ -616,10 +649,15 @@
 			baseConfigurationReference = 03F0BE97E5C8588DC89D0828 /* Pods-Tripologics_planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tripologics_planner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-planner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -628,10 +666,15 @@
 			baseConfigurationReference = D00067AADBF02DD05DFD8FE0 /* Pods-Tripologics_planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tripologics_planner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ferologics.Tripologics-planner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

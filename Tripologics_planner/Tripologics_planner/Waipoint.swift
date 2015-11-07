@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import Gloss
 
-typealias waipointType = NSSet //Dictionary<String, String>//[(name: String, geopoint: String)]
+//typealias waipointType = NSSet //Dictionary<String, String>//[(name: String, geopoint: String)]
 
 class Waipoint: NSManagedObject
 {

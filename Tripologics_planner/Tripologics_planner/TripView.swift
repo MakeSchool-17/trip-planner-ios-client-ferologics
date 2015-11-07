@@ -13,10 +13,8 @@ class TripView: UIView
 {
     @IBOutlet weak var addTripButton: UIButton!
  
-    
     @IBAction func addTripButtonTapped(sender: AnyObject)
     {
         
     }
-    
 }
